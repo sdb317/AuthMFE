@@ -1,18 +1,18 @@
-#!/usr/bin/env python
+y#!/usr/bin/env python
 """
 Django's command-line utility for administrative tasks.
 
 Useful commands:
 
-python server\manage.py help <subcommand>
-python server\manage.py check
+python manage.py help <subcommand>
+python manage.py check
 
-python server\manage.py runserver --noreload localhost:8000
-python server\manage.py runserver --noreload 0.0.0.0:8000 # For access on local network
-python server\manage.py runsslserver --noreload localhost:8000
-python server\manage.py runsslserver --noreload 0.0.0.0:8000 # For secure access on local network
+python manage.py runserver --noreload localhost:8000
+python manage.py runserver --noreload 0.0.0.0:8000 # For access on local network
+python manage.py runsslserver --noreload localhost:8000
+python manage.py runsslserver --noreload 0.0.0.0:8000 # For secure access on local network
 
-python server\manage.py shell
+python manage.py shell
 
 
 """

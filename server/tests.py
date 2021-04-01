@@ -21,7 +21,7 @@ from rest_framework.test import APIClient
 
 import mock
 
-# python server\manage.py test server.tests.MyTestCases.test<TestName>
+# python manage.py test server.tests.MyTestCases.test<TestName>
 
 class DiscoverRunnerNoDatabase(DiscoverRunner):
     """
