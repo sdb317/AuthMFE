@@ -11,6 +11,7 @@ The following environment variables are required before running the server:
 -  ```set DJANGO_SETTINGS_MODULE=server.settings.production```
 - ``` set SECRET_KEY=```"Add Your Own Key Here"
 
+Create a ['superuser'](https://docs.djangoproject.com/en/3.1/ref/django-admin/#createsuperuser) with ```python manage.py createsuperuser```.
 
 Any 'superuser' can use the built-in Django admin functionality to create/delete users via the ```admin/``` URL.
 
@@ -30,4 +31,5 @@ The demo page loads the custom element definition in ```auth.js``` and embeds it
 
 A custom event, ```mfe-auth-changed```, is fired whenever the authenticated state changes. This can be used to retrieve the user data via ```event.target.getUser()``` and ```event.target.isAuthenticated()```.
 
+Site-specific styling can be added in in ```auth.css```.
 
